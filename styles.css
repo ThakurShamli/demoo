@@ -1,3 +1,26 @@
+/*a:-Selector*/
 h1 {
-    color: red;
+
+    color: blueviolet;
 }
+p{
+    color:green;
+
+}
+/*b:-id selector*/
+#Shamli{
+    color:Red;
+
+   }
+   #Shamli:hover{
+    color:Green;
+
+   }
+   /*c:-class selector*/
+.sam{
+    color:aqua;
+}
+
+/*Colors & gradients(color)*/
+/* color are of 3 ways:-1.name color
+2./hex code   3.rgb()*/
