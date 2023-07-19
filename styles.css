@@ -1,7 +1,12 @@
-/*a:-Selector*/
+*{
+    font-family: 'Times New Roman';
+}
+/*a:-Selector :-element selector*/
 h1 {
 
     color: blueviolet;
+    text-align: center;
+    text-transform: capitalize;
 }
 p{
     color:green;
@@ -12,15 +17,39 @@ p{
     color:Red;
 
    }
+   /*For background color*/
+   body{
+     background-color:whitesmoke;
+   }
+
+   #outer{
+    font-size :25px;
+   }
+   #inner{
+    font-size: 10px;
+   }
+
+   /*hover is used to change the color while of element by touch*/
    #Shamli:hover{
     color:Green;
 
    }
    /*c:-class selector*/
 .sam{
-    color:aqua;
+    color:green;
 }
+/*d:-Attribute selector*/
+/*anchor, image.[]     :-starts with ,end with,contain*/
 
+
+
+/*unit of measurement*/
+/*1.absolute unit 2.Relative unit
+find the difference rem & emn
 /*Colors & gradients(color)*/
 /* color are of 3 ways:-1.name color
 2./hex code   3.rgb()*/
+/*linear and non linear*/
+p{
+    text-align: left;
+}
